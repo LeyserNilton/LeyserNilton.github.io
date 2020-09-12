@@ -19,7 +19,6 @@ header {
 
 header {
     text-align: left;
-    padding: 10px, 50px;
 }
 
 nav {
@@ -29,7 +28,6 @@ nav {
 
 body h1 {
     color: black;
-    font-size: 100;
     text-decoration: none;
     text-align: center;
     background-color: cadetblue;
