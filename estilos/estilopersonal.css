@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
-    font-family: Roboto, sans-serif;
-    background-color: bisque;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 header {
@@ -15,18 +20,58 @@ header {
     background: #11385D;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    position: fixed;
 }
 
-header {
-    text-align: left;
-    padding: 10px 50px;
+.nav {
+    font-family: 'Tangerine', serif;
+    background-color: #11385D;
+    ;
+    padding: 0px;
+    margin-bottom: 1em;
 }
 
-nav {
+.nav__logo {
+    width: 3em;
+    vertical-align: middle;
     display: inline-block;
-    width: 70%;
+}
+
+.nav__title {
+    background-color: whitesmoke;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav__ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 70vw;
     text-align: right;
+    /*Esto va a depender del titulo y el logo*/
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 0 5px;
+    text-align: right;
+}
+
+.nav__li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: right;
+}
+
+.nav__li a:hover {
+    color: #ff8000;
+}
+
+.nav__title:hover {
+    color: #81f781;
 }
 
 body h1 {
@@ -62,12 +107,54 @@ section h2 {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: aquamarine;
 }
 
-section img {
-    display: block;
-    margin: auto;
-    width: auto;
-    background-color: yellowgreen;
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0;
+    /* Establecemos la barra en la izquierda */
+    top: 200px;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-youtube {
+    background: red;
+}
+
+.social ul li .icon-github {
+    background: black;
+}
+
+.social ul li .icon-instagram {
+    background: orangered;
+}
+
+.social ul li a:hover {
+    background: rgb(61, 76, 85);
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 30px;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 }
