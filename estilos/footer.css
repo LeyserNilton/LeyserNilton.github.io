@@ -10,6 +10,7 @@ footer {
     vertical-align: top;
     padding: 10px 70px 0px 70px;
     margin: 0px;
+    font-family: 'Anton', sans-serif;
 }
 
 footer a {
@@ -22,4 +23,5 @@ footer h5 {
     font-size: 15px;
     font-weight: 700;
     padding: 10px;
+    font-family: 'Secular One', sans-serif;
 }
