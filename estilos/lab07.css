@@ -3,20 +3,71 @@
     box-sizing: border-box;
 }
 
+.conteiner {
+    background-color: lightskyblue;
+}
+
 body {
-    padding-top: 50px;
+    padding-top: 0%;
 }
 
-label {
-    background-color: #006effb9;
+.label1 {
+    background-color: #006effee;
     color: white;
+    width: 250px;
+    padding: 3px;
 }
 
-.labRed {
-    background-color: #ff0037e1;
+.label2 {
+    background-color: #006effee;
     color: white;
+    width: 200px;
+    padding: 3px;
+}
+
+.btn-Red {
+    background-color: darkred;
+    border-radius: 5px;
 }
 
 .btn-yellow {
-    background-color: #24d022;
+    background-color: peru;
+    border-radius: 5px;
+}
+
+.labRed {
+    background-color: darkred;
+    color: white;
+    width: 200px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.col-sm {
+    margin-left: 30px;
+}
+
+.form-group {
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+.caja1 {
+    width: 330px;
+}
+
+.caja2 {
+    width: 200px;
+    color: white;
+}
+
+.form-group2 {
+    margin-left: 300px;
+}
+
+.form-group1 {
+    margin-left: 120px;
 }
