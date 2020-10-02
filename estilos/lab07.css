@@ -28,11 +28,19 @@ body {
 .btn-Red {
     background-color: darkred;
     border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .btn-yellow {
     background-color: peru;
     border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .labRed {
