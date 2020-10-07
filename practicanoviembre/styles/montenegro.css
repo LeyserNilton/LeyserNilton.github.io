@@ -1,51 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h2 {
+    font-size: 14px;
 }
 
-body {
-    margin: 1%;
-}
-
-.row {
-    width: 22%;
-    border-bottom: black;
-    margin: 10px;
-    float: left;
-    display: inline-block;
-    border-right: solid 1px;
-    border-top: solid 1px;
-}
-
-img {
-    width: 100%;
-}
-
-.inmoviliario {
-    background-color: red;
-}
-
-.talentoycultura {
-    background-color: yellow;
-}
-
-.politica {
-    background-color: purple;
+h1 {
+    font-size: 19px;
+    padding-top: 19px;
 }
 
 .turismo {
     background-color: red;
 }
 
-.rojo {
+p {
+    font-size: 14px;
+}
+
+button {
+    color: white;
+    border: none;
+}
+
+.imbobiliario {
+    background-color: red;
+}
+
+.cultura {
+    background-color: sandybrown;
+}
+
+.color:hover {
+    background-color: rgba(189, 33, 59, 0.246);
+}
+
+.politica {
+    background-color: rebeccapurple;
+}
+
+.color {
+    color: #d13f57;
+    border: none;
+}
+
+.turismo2 {
     color: red;
 }
 
-.amarillo {
-    color: yellowgreen;
+.imbobiliario2 {
+    color: red;
 }
 
-.morado {
-    color: purple;
+.cultura2 {
+    color: sandybrown;
+}
+
+.politica2 {
+    color: rebeccapurple;
 }

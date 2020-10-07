@@ -5,78 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="practicanoviembre/styles/montenegro.css">
-    <link rel="stylesheet" href="practicanoviembre/styles/icomoon/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="practicanoviembre/styles/montenegro.css">
     <title>Practica Noviembre</title>
 </head>
 
 <body>
-    <section class="content">
-        <div>
-            <div>
-                <form action class="row">
-                    <div class="uno">
-                        <h3>Desde <span class="rojo">Sectores y empresas</span>
-                        </h3>
-                        <button class="inmoviliario">Inmobiliario</button>
-                        <button class="icon-bookmark"></button><br>
-                        <img src="practicanoviembre/images/inmobiliario.jpg" alt=" inmoviliario">
-                        <p class="negrita"><strong>Vivienda residencial: avanzan las ventas, pero todavia no el precio</strong></p>
-                        <p class="p">El segmento da sus primeras señales de recuperacion, aunque el valor del metro cuadrado en Lima Top seguiría bajo por algunos meses más</p>
-                        <label class="labein">Lectura de 3 min</label>
-                    </div>
-                </form action>
-            </div>
-        </div>
-        <div>
-            <div>
-                <form action class="row">
-                    <div>
-                        <h3>Desde <span class="amarillo">Management</span></h3>
 
-                        <button class="talentoycultura">Talento y cultura</button>
-                        <button class="icon-bookmark"></button><br>
-                        <img src="practicanoviembre/images/talento y cultura.jpg" alt="Talento y cultura">
-                        <p class="negrita"><strong>El nuevo CEO de Delosi y otras movidas empresariales</strong></p>
-                        <p class="p">Kia Perú, Ey Perú y DLA Piter Perú tambien realizaron nuevos nombramientos</p>
-                        <label class="labeta">Lectura de 2 min</label>
-                    </div>
-                </form action>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm border-right">
+                <h2>Desde <strong class="imbobiliario2">Sector y Empresa</strong> </h2>
+                <button class="imbobiliario">Inmobiliario</button>
+                <button id="lectura" class="color float-right"><i class="far fa-bookmark "></i></button>
+
+                <img class="img-fluid" src="practicanoviembre/images/inmobiliario.jpg" alt="inmobiliario">
+                <h1> Vivienda residendial</h1>
+                <p>El segmento da sus primeras señales de recuperacion, aunque el valor del metro cuadrado en Lima Top seguira bajo por algunos meses más. </p>
+
+                <p class="float-right"><i class="far fa-clock"> </i><small> <strong id="l1" >Lectura de 3 min</strong> </small></p>
+
             </div>
-        </div>
-        <div>
-            <div>
-                <form action class="row">
-                    <div class="conteiner">
-                        <h3>Desde <span class="morado">Legal y Política</span></h3>
-                        <button class="politica">Política</button>
-                        <button class="icon-bookmark"></button><br>
-                        <img src="practicanoviembre/images/politica.jpg" alt="Talento y cultura">
-                        <p class="negrita"><strong>[editorial] ¿Y la sensatez económica?</strong></p>
-                        <p class="p">LA VOZ DE SE. Las agendas políticas a nivel regional y parlamentario comprometen la recuperación económica. El gobierno debe agotar todo esfuerzo para neutralizarlas.</p>
-                        <label class="labepo">Lectura de 3 min</label>
-                    </div>
-                </form action>
+            <div class="col-sm border-right">
+                <h2>Desde <strong class="cultura2">Management</strong> </h2>
+                <button id="hora" class="cultura">Talento y cultura</button>
+                <button id="lectura2" class="color float-right"><i class="far fa-bookmark "></i></button>
+                <img class="img-fluid" src="practicanoviembre/images/talento y cultura.jpg" alt="talento">
+                <h1> El nuevo CEO de Delosi y otras movidas empresariales</h1>
+                <p>Ka Perú. EY Peru y DLA Piper Peru también realizaron nuevos nombramientos. </p>
+                <p class="float-right"><i class="far fa-clock"> </i><small> <strong id="l2">Lectura de 2 min</strong> </small></p>
+                <br>
+                <label id="hora1"></label>
             </div>
-        </div>
-        <div>
-            <div>
-                <form action class="row">
-                    <div>
-                        <h3>Desde <span class="rojo">Turismo</span>
-                        </h3>
-                        <button class="turismo">Turismo</button>
-                        <button class="icon-bookmark"></button><br>
-                        <img src="practicanoviembre/images/turismo.jpg" alt="Talento y cultura">
-                        <p class="negrita"><strong>Reapertura de fronteras: hoy inicia la reactivación del circuito turístico regional</strong></p>
-                        <p class="p">El regreso de los vuelos, desdeel 5 de octubre, es el comienzo de la transición de la reactivación turística interna a la regional. Sin embargo, algunos factores pueden retr...</p>
-                        <label class="labepo">Lectura de 5 min</label>
+
+            <div class="col-sm border-right">
+                <h2>Desde <strong class="politica2">Legal y politica</strong> </h2>
+                <button class="politica">Politica</button>
+                <button id="lectura3" class="color float-right"><i class="far fa-bookmark "></i></button>
+                <img class="img-fluid" src="practicanoviembre/images/politica.jpg" alt="politica">
+                <h1> [Editorial] ¿Y la sensatez económica?</h1>
+                <p>LA VOZ DE SE Las agendas politicas a nivel regional y parlamentario comprometen la recuperacion economica gobierno debe agotar todo esfuerzo para reutralizarias . </p>
+                <p class="float-right"><i class="far fa-clock"> </i><small> <strong id="l3">Lectura de 3 min</strong> </small></p>
+            </div>
+            <div class="col-sm">
+                <h2>Desde <strong class="turismo2">Sector y Empresa</strong> </h2>
+                <button id="turismo" class="turismo">Turismo</button>
+                <button id="lectura4" class="color float-right"><i class="far fa-bookmark "></i></button>
+                <div id="img">
+                    <img class="img-fluid" src="practicanoviembre/images/turismo.jpg" alt="turismo">
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen1.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen2.jpg" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen3.jpg" alt="Imagen 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen4.jpg" alt="Imagen 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen5.jpg" alt="Imagen 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen6.jpg" alt="Imagen 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen7.jpg" alt="Imagen 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="practicanoviembre/images/imagen 8.jpg" alt="Imagen 8">
+                        </div>
                     </div>
-                </form action>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h1> Reapertura de fronteras: hoy inicia la reactivación del circuito turístico regional</h1>
+                <p>La regreso de los vuelos internacionales, desde el de octubre es el coste de la transición de la reactivación turistica interna a la regional Sin embargo, algunos factores pueden retr... </p>
+                <p class="float-right"><i class="far fa-clock"> </i><small> <strong id="l4">Lectura de 5 min</strong> </small></p>
+
             </div>
         </div>
     </section>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="practicanoviembre/scripts/montenegro.js"></script>
 </body>
 
