@@ -9,14 +9,43 @@ body {
 }
 
 .row {
-    width: 25%;
-    align-items: center;
-    background-color: lightblue;
-    border-radius: 5px;
-    text-align: justify;
-    margin: 2px;
+    width: 22%;
+    border-bottom: black;
+    margin: 10px;
+    float: left;
+    display: inline-block;
+    border-right: solid 1px;
+    border-top: solid 1px;
 }
 
 img {
-    width: 50%;
+    width: 100%;
+}
+
+.inmoviliario {
+    background-color: red;
+}
+
+.talentoycultura {
+    background-color: yellow;
+}
+
+.politica {
+    background-color: purple;
+}
+
+.turismo {
+    background-color: red;
+}
+
+.rojo {
+    color: red;
+}
+
+.amarillo {
+    color: yellowgreen;
+}
+
+.morado {
+    color: purple;
 }
